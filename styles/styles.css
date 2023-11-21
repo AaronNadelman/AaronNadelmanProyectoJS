@@ -1,0 +1,22 @@
+.busqueda {
+    background-color: rgb(252, 12, 116);
+    color: #fff;
+    border: 1px solid rgb(252, 12, 116);
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.tarjetaContenedor {
+    height: 500px;
+    width: 500px;
+}
+
+.tarjetaImagen {
+    width: auto;
+}
+
+.logoCarrito {
+    margin-left: 3rem;
+    width: 40px;
+}
