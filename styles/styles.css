@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Inknut+Antiqua:wght@300&family=Montserrat:wght@600&family=Open+Sans&display=swap');
+
+
+body {
+    background-color: lightgray;
+}
+
 .busqueda {
     background-color: rgb(252, 12, 116);
     color: #fff;
@@ -7,16 +14,91 @@
     cursor: pointer;
 }
 
-.tarjetaContenedor {
-    height: 500px;
-    width: 500px;
+.titulo {
+    color: RGB(68, 7, 68);
+    margin: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
-.tarjetaImagen {
-    width: auto;
+.formulario {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 .logoCarrito {
     margin-left: 3rem;
     width: 40px;
+}
+
+.productosContainer {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 10fr 10fr 10fr 10fr
+}
+
+.slogan {
+    font-size: x-large;
+    color: white;
+    margin: 2rem;
+    width: 30vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.texto {
+
+    text-align: center;
+    color: rgb(85, 16, 76);
+    font-size: small;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.encontradoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.productoEncontrado {
+    align-self: center;
+    margin: 1rem;
+    background-color: white;
+    width: 15vw;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.producto {
+    margin: 1rem;
+    background-color: white;
+    width: 15vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+}
+
+.producto:hover {
+
+    transform: scale(1.1);
+
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+
+
+}
+
+.imagenProducto {
+
+    width: 12vw;
+
 }
