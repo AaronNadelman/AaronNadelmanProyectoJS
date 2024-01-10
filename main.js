@@ -1,3 +1,5 @@
+
+
 //REGISTRO DE USUARIOS
 
 let respuestaUsuario = document.getElementById("nombreUsuario")
@@ -140,7 +142,11 @@ botonBuscar.addEventListener("click", (event) => {
             });
 
             if (productosFiltrados.length === 0) {
-                alert("No se encontraron productos con la búsqueda proporcionada");
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'No se encontraron productos.',
+                });
             } else {
 
 
